@@ -6,6 +6,8 @@ import java.util.Map;
 
 
 public class AnalyticsCounter {
+    public AnalyticsCounter(List<String> symptoms) {
+    }
 
     // The dictionary take symptoms as key and an integer as value for counting symptoms
 
@@ -16,7 +18,7 @@ public class AnalyticsCounter {
      *
      * @return a hash map of those symptoms : stringIntegerHashMap
      */
-    public static Map<String, Integer> analytics(List<String> symptomList) {
+    public  Map<String, Integer> analytics(List<String> symptomList) {
         HashMap<String, Integer> stringIntegerHashMap = new HashMap<>();
         symptomList.stream().forEach(
             symptomName -> {
