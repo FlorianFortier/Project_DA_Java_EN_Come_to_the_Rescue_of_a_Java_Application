@@ -3,6 +3,7 @@ package com.hemebiotech.analytics;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.TreeMap;
 
 
 public class AnalyticsCounter {
@@ -19,7 +20,7 @@ public class AnalyticsCounter {
      * @return a hash map of those symptoms : stringIntegerHashMap
      */
     public  Map<String, Integer> analytics(List<String> symptomList) {
-        HashMap<String, Integer> stringIntegerHashMap = new HashMap<>();
+        TreeMap<String, Integer> stringIntegerHashMap = new TreeMap<>();
         symptomList.stream().forEach(
             symptomName -> {
                 stringIntegerHashMap.put(symptomName, stringIntegerHashMap.getOrDefault(symptomName, 0) + 1);
