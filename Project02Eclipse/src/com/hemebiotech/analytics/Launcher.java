@@ -7,6 +7,9 @@ import java.io.IOException;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * Class that execute the program
+ */
 public class Launcher {
     /**
      * @throws Exception Throws any Related execution error that may occur

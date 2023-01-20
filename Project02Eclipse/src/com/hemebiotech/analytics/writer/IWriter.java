@@ -3,6 +3,9 @@ package com.hemebiotech.analytics.writer;
 import java.io.IOException;
 import java.util.Map;
 
+/**
+ *  Interface that define the writing method
+ */
 public interface IWriter {
 
     // Method that takes a dictionary and the name of the output file for creating a file

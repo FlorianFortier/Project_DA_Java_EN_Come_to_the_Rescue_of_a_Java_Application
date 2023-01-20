@@ -4,8 +4,15 @@ import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
 
-
+/**
+ * Class that counts numbers of symptoms from a List
+ */
 public class AnalyticsCounter {
+
+    /**
+     *
+     * @param symptoms
+     */
     public AnalyticsCounter(List<String> symptoms) {
     }
 
